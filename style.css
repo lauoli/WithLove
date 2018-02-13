@@ -15,12 +15,38 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
   font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 13px;
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 10px;
+  border-top: solid 5px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+</style>
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+img {
+  width: 100%;
 }
 
 @media(min-width: 729px) {
